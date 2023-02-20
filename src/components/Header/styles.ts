@@ -1,4 +1,4 @@
-import CaretLeft from "phosphor-react-native/lib/typescript/icons/CaretLeft";
+import { CaretLeft } from "phosphor-react-native";
 import styled from "styled-components/native";
 
 export const Container = styled.View`
@@ -18,9 +18,8 @@ export const BackButton = styled.TouchableOpacity`
 
 `
 
-export const BackIcon = styled(CaretLeft).attrs(({theme}) => ({
+export const BackIcon = styled(CaretLeft).attrs(({ theme }) => ({
     size: 32,
     color: theme.COLORS.WHITE
-}))`
-
-`
+  }))``;
+  
